@@ -1,0 +1,13 @@
+// Add your base style here
+
+$font-stack: 'Vollkorn serif';
+$primary-color: #333;
+
+body{
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+button{
+  border-radius: 0; 
+}

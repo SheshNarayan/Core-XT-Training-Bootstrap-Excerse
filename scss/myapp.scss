@@ -1,0 +1,19 @@
+
+@import "../node_modules/font-awesome/scss/font-awesome";
+
+
+$primary: green;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "variables";
+
+@import "base.scss";
+
+$background_img: url('img/background_image.jpg') no-repeat center;
+
+/*
+wrap{
+	height:100%;
+	background: $background_img;
+}
+*/

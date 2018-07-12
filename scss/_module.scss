@@ -1,0 +1,25 @@
+// Write Your Module Style here
+
+$slide-head-color: black;
+$slide-text-color:black;
+
+.d-block{
+    height: 30rem;
+}
+
+.carousel-item{
+    h1{
+        color:$slide-head-color;
+        font-size: 3rem;
+      
+    }
+    p{
+        font-family: Tangerine, serif;
+        color: $slide-text-color;
+        font-size: 1.09rem;
+    }
+}
+
+.card-img-top{
+    height: 20rem;
+}
