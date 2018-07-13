@@ -9,30 +9,12 @@
 // @import "_layout.scss";
 @import "_module.scss";
 // @import "_state.scss";
-// @import "_style.scss";
+@import "_style.scss";
 // @import "_theme.scss";
-
 // $font-stack: 'Architects Daughter';
 // $primary-color: #333;
 $myBtn_Color: #000088;
 $slide-head-color: #c00c0c;
 $slide-text-color: #23242483;
 
-// body {
-//   font: 100% $font-stack;
-//   color: $primary-color;
- 
-// }
 
-img {
-    width: 60px;
-}
-
-.btn-primary {   
-    background-color: #000088;
-    border-color: #000088;
-}
-
-.lead{
-    background-color:transparent;
-}

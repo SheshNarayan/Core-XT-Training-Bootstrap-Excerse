@@ -8626,6 +8626,16 @@ body {
 button {
   border-radius: 0; }
 
+img {
+  width: 60px; }
+
+.btn-primary {
+  background-color: #000088;
+  border-color: #000088; }
+
+.lead {
+  background-color: transparent; }
+
 .d-block {
   height: 30rem; }
 
@@ -8641,12 +8651,11 @@ button {
 .card-img-top {
   height: 20rem; }
 
-img {
-  width: 60px; }
+.collapse img {
+  width: 8rem;
+  height: 2rem; }
 
-.btn-primary {
-  background-color: #000088;
-  border-color: #000088; }
-
-.lead {
-  background-color: transparent; }
+.navbar-brand img {
+  height: 5rem;
+  width: 6rem;
+  background: gray; }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     
     <!-- <link href='https://fonts.googleapis.com/css?family=' rel='stylesheet'> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css">
     <link rel="stylesheet" href="css/app.css">
     
@@ -222,7 +223,14 @@
 
             <div class="col-md-12">
                 <hr class="light">
-                <h5>Copyright@2000 Narayana school. Follow Us: </h5>
+                <h5>
+                    Copyright@2000 Narayana school. Follow Us:
+                    <a href="https://facebook.com/" class="fa fa-facebook" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter"></a>
+                    <a href="https://google.co.in" class="fa fa-google" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Google"></a>
+                    <a href="https://in.linkedin.com/" class="fa fa-linkedin" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Youtube"></a>
+                </h5>
             </div>
 
            </div>
@@ -237,7 +245,11 @@
     <!-- jQuery first, then Tether, then Bootstrap JS. --> 
     <script src="js/bootstrap.min.js"></script>
    
-
 </body>
 
 </html>
+<script>
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
