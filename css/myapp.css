@@ -9543,14 +9543,14 @@ $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
  */
 body {
-  font: 100% "Vollkorn serif";
+  font: 100% "Lato sans-serif";
   color: #333; }
 
 button {
   border-radius: 0; }
 
 img {
-  width: 60px; }
+  width: 55px; }
 
 .btn-primary {
   background-color: #000088;

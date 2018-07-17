@@ -1,6 +1,7 @@
 // Write Your Module Style here
 
-$slide-head-color: black;
+$slide-head-color: #f4f4f4;
+$slide-head-bgcolor: rgb(236, 227, 227);
 $slide-text-color:black;
 
 .d-block{
@@ -10,6 +11,7 @@ $slide-text-color:black;
 .carousel-item{
     h1{
         color:$slide-head-color;
+        // background-color: $slide-head-bgcolor;
         font-size: 3rem;
       
     }
@@ -36,4 +38,14 @@ $slide-text-color:black;
         width: 6rem;
         background: gray;
     }
+}
+.row{
+    width: 100%;
+}
+// recent annoucement button
+.btn-info {
+    color: #fff;
+    // background-color: #17a2b8;
+    background-color: teal !important;
+    border-color: #17a2b8; 
 }
